@@ -1,0 +1,10 @@
+{
+  "command": "/Users/krishansubudhi/.local/bin/uv",
+  "args": [
+    "--directory",
+    "/Users/krishansubudhi/gemini-mcp-example/fileops-mcp-server",
+    "run",
+    "fileops.py"
+  ],
+  "env": null
+}
