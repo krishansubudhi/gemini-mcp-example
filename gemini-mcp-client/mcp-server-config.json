@@ -1,10 +1,26 @@
 {
-  "command": "/Users/krishansubudhi/.local/bin/uv",
-  "args": [
-    "--directory",
-    "/Users/krishansubudhi/gemini-mcp-example/fileops-mcp-server",
-    "run",
-    "fileops.py"
-  ],
-  "env": null
+  "mcp_configs": [
+    {
+      "name": "fileops",
+      "command": "/Users/krishansubudhi/.local/bin/uv",
+      "args": [
+        "--directory",
+        "/Users/krishansubudhi/gemini-mcp-example/fileops-mcp-server",
+        "run",
+        "fileops.py"
+      ],
+      "env": null
+    },
+    {
+      "name": "jetbrains",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@jetbrains/mcp-proxy"
+      ],
+      "env": {
+        "LOG_ENABLED": "false"
+      }
+    }
+  ]
 }

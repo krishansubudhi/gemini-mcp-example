@@ -6,6 +6,15 @@ This project consists of two components:
 
 ---
 
+Install `uv`
+```
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+
+Install `node`
+```
+brew install node pnpm
+```
 
 ## FileOps MCP Server
 
@@ -18,11 +27,6 @@ cd fileops-mcp-server
 
 ### Set up instructions:
 
-Install uv.
-```
-curl -LsSf https://astral.sh/uv/install.sh | sh
-```
-
 Create virtual env and sync
 
 ```
@@ -34,6 +38,13 @@ uv sync
 ```
 
 ---
+
+## Jetbrains MCP server
+
+https://plugins.jetbrains.com/plugin/26071-mcp-server
+
+---
+
 
 ## Gemini MCP Client
 
@@ -93,3 +104,4 @@ For detailed setup instructions and usage, refer to the [Gemini MCP Client READM
 - [Gemini API Documentation](https://ai.google.dev/gemini-api/docs/function-calling?example=meeting)
 - [Python GenAI SDK](https://googleapis.github.io/python-genai/)
 - [Gemini MCP Example](https://github.com/philschmid/gemini-samples/blob/main/examples/gemini-mcp-example.ipynb)
+- [Jetbrains MCP plugin](https://github.com/JetBrains/mcp-jetbrains/tree/main)
